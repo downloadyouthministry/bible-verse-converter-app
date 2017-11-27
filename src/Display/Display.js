@@ -8,11 +8,11 @@ class Display extends Component {
     return (
       <div className="display">
         <div className="parsed">
-          <label> Conversions </label>
+          <label className="header"> Conversions </label>
           <span> {converted} </span>
         </div>
         <div className="found">
-          <label> What We Found </label>
+          <label className="header"> What We Found </label>
           <ul> {verses.split(",").map((v, i) => <li key={i}> {v} </li>)} </ul>
         </div>
       </div>

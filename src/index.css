@@ -8,8 +8,18 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
-  background-color: #eee; 
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body, .base, #root, .card {
+  height: 100%;
+}
+
+header {
+  background-color: #3caef8;
+  padding: 20px 10px;
+  color: white;
+  font-size: 25px;
 }
 
 #hook {
@@ -20,38 +30,50 @@ body {
 
 .base {
   margin: 0 auto;
-  margin-top: 40px;
-  max-width: 600px;
   width: 100%;
+  height: calc(100% - 69.9px);
 }
 
 textarea {
   padding: 10px;
   box-sizing: border-box;
+  border: none;
+  height: calc(100% - 40px);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button {
-  padding: 10px;
+  width: 100%;
   background-color: #3caef8;
   color: white;
   text-align: center;
-  margin-top: 15px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .card {
-  background-color: white;
-  box-shadow: 0 .2rem .2rem 0 rgba(0,0,0,.35);
-  padding: 30px;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
+}
+
+.card > div {
+  flex: 1;
+  max-width: 50%;
+}
+
+.card > div:first-of-type {
+  border-right: 2px solid #2c3037;
 }
 
 .converter {
   display: flex;
   flex-flow: column;
   width: 100%;
-  border-bottom: 1px solid black;
-  padding-bottom: 20px;
 }
 
 ul {
@@ -60,22 +82,47 @@ ul {
   list-style: none;
 }
 
-.converter textarea {
-  height: 200px;
-}
-
 .display {
-  margin-top: 20px;
-}
-
-.display > div {
-  margin-top: 10px;
   display: flex;
   flex-flow: column;
 }
 
-.display label {
-  font-weight: 600;
+.display > div {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  max-height: 50%;
+}
+
+.display > div:first-of-type {
+  border-bottom: 1px solid #2c3037;
+}
+
+.display > div span {
+  padding: 10px;
+  height: 100%;
+  overflow: scroll;
+}
+
+.display > div ul {
+  padding: 10px;
+  height: 100%;
+  overflow: scroll;
+}
+
+.header {
+  background-color: #2c3037;
+  height: 60px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  color: white;
+}
+
+.header .button {
+  max-width: 150px;
 }
 
 .parsed span {

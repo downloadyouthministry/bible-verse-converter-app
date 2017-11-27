@@ -31,14 +31,17 @@ class Converter extends Component {
 
     return (
       <div className="converter">
+        <label className="header">
+          Text To Convert
+          <span className="button" onClick={this._onConvert}>
+            Convert
+          </span>
+        </label>
         <textarea
           placeholder="Text To Convert"
           value={textArea}
           onChange={this._onTextChange.bind(this)}
         />
-        <span className="button" onClick={this._onConvert}>
-          *Beep Boop* Make Numbers
-        </span>
       </div>
     )
   }

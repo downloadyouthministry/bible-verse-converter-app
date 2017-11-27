@@ -25,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="base">
+        <header> Bible Verse Converter </header>
         <div className="card">
           <Converter onConvert={this.onConvert.bind(this)} />
           <Display
