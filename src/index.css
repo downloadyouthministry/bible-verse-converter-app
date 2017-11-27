@@ -1,0 +1,83 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #eee; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hook {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.base {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 600px;
+  width: 100%;
+}
+
+textarea {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 10px;
+  background-color: #3caef8;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 .2rem .2rem 0 rgba(0,0,0,.35);
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.converter {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.converter textarea {
+  height: 200px;
+}
+
+.display {
+  margin-top: 20px;
+}
+
+.display > div {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+.display label {
+  font-weight: 600;
+}
+
+.parsed span {
+  overflow-wrap: break-word;
+}
