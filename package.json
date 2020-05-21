@@ -1,6 +1,7 @@
 {
   "name": "bible-verse-converter",
   "version": "0.1.1",
+  "homepage": "/bible-verse-converter-app",
   "private": true,
   "dependencies": {
     "bible-passage-reference-parser": "^2.0.1",
@@ -15,5 +16,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "yarn build && firebase deploy"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
