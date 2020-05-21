@@ -23,3 +23,4 @@ jobs:
           git config --global user.name ${{secrets.GH_USERNAME}}
           git remote set-url origin https://${{secrets.GH_PERSONAL_ACCESS_TOKEN}}@github.com/${{secrets.GH_USERNAME}}/bible-verse-converter-app.git
           npm run deploy
+          echo "all done"
