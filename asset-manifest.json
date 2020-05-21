@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bible-verse-converter-app/static/css/main.79a42c1c.chunk.css",
+    "main.js": "/bible-verse-converter-app/static/js/main.bd348421.chunk.js",
+    "main.js.map": "/bible-verse-converter-app/static/js/main.bd348421.chunk.js.map",
+    "runtime-main.js": "/bible-verse-converter-app/static/js/runtime-main.fce76b53.js",
+    "runtime-main.js.map": "/bible-verse-converter-app/static/js/runtime-main.fce76b53.js.map",
+    "static/js/2.53198230.chunk.js": "/bible-verse-converter-app/static/js/2.53198230.chunk.js",
+    "static/js/2.53198230.chunk.js.map": "/bible-verse-converter-app/static/js/2.53198230.chunk.js.map",
+    "index.html": "/bible-verse-converter-app/index.html",
+    "precache-manifest.3ebb1872ead41f740e8a8b2121be818d.js": "/bible-verse-converter-app/precache-manifest.3ebb1872ead41f740e8a8b2121be818d.js",
+    "service-worker.js": "/bible-verse-converter-app/service-worker.js",
+    "static/css/main.79a42c1c.chunk.css.map": "/bible-verse-converter-app/static/css/main.79a42c1c.chunk.css.map",
+    "static/js/2.53198230.chunk.js.LICENSE.txt": "/bible-verse-converter-app/static/js/2.53198230.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fce76b53.js",
+    "static/js/2.53198230.chunk.js",
+    "static/css/main.79a42c1c.chunk.css",
+    "static/js/main.bd348421.chunk.js"
+  ]
+}
