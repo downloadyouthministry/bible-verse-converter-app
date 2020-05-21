@@ -1,7 +1,7 @@
 {
   "name": "bible-verse-converter",
   "version": "0.1.1",
-  "homepage": "/bible-verse-converter-app",
+  "homepage": "https://downloadyouthministry.github.io/bible-verse-converter-app/",
   "private": true,
   "dependencies": {
     "bible-passage-reference-parser": "^2.0.1",
@@ -15,7 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "yarn build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
