@@ -1,7 +1,7 @@
 {
   "name": "bible-verse-converter",
   "version": "0.1.1",
-  "homepage": "http://downloadyouthministry.github.io/bible-verse-converter-app",
+  "homepage": "https://bible-verse-convert.dymapps.com",
   "private": true,
   "dependencies": {
     "bible-passage-reference-parser": "^2.0.1",
